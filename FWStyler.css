@@ -1,1 +1,38 @@
+body{
+    background: black;
+}
+h1{
+    color: #ffe800;
+}
+h3 {
+    color: #42ff00;
+}
+b{
+    color: #ff9000;
+}
+li{
+    color: #ffffff;
+    font: 14px "Comic Sans MS"
+}
+a{
+    color: #00ffd1;
+}
+#electricity3{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    height: 100px;
+    width: 200px;
+    border: 5px solid #ffffff;
+    animation: bouncing 5s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes bouncing{
+    50%{
+        top: 90px;
+        left: 280px;
+        height: 110px;
+        width: 220px;
+    }
+}

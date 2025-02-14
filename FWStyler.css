@@ -1,21 +1,22 @@
 body{
-    background: black;
+    background: #8cf2ff;
+    text-align: center;
 }
 h1{
-    color: #ffe800;
+    color: #000000;
 }
 h3 {
-    color: #42ff00;
+    color: #4c4c4c;
 }
 b{
-    color: #ff9000;
+    color: #ff0000;
 }
 li{
-    color: #ffffff;
+    color: #000000;
     font: 14px "Comic Sans MS"
 }
 a{
-    color: #00ffd1;
+    color: #0015ff;
 }
 #electricity3{
     position: absolute;
@@ -27,11 +28,29 @@ a{
     animation: bouncing 5s;
     animation-iteration-count: infinite;
 }
+#case {
+    position: absolute;
+    top: 120px;
+    left: 1000px;
+    height: 100px;
+    width: 200px;
+    border: 5px solid #ffffff;
+    animation: bouncing2 5s;
+    animation-iteration-count: infinite;
+}
 
-@keyframes bouncing{
-    50%{
+@keyframes bouncing {
+    50% {
         top: 90px;
         left: 280px;
+        height: 110px;
+        width: 220px;
+    }
+}
+@keyframes bouncing2{
+    50% {
+        top: 90px;
+        left: 1080px;
         height: 110px;
         width: 220px;
     }
